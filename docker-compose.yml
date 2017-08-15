@@ -3,7 +3,7 @@ version: '2'
 services:
   man:
     build: .
-    image: holmantai/carnd_t2_UKFP:latest
+    image: holmantai/carnd_t2_ukfp:latest
     network_mode: "host"
     command: sh /carND/UKFP/build/build.sh
     volumes:
